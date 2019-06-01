@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  h6{
+    font-size: 13px;
+  }
+ .aboutFlexOne__img{
+   height: 35vh;
+ }
+  .aboutFlexTwo p:first-child{
+    line-height: 1.7em;
+    font-size: 14px;
+  }
+  .aboutFlexTwo p:nth-child(2) {
+    font-size: 12px;
+  }
+  .aboutFlexTwo p:nth-child(4) {
+    font-size: 14px;
+  }
+  .aboutFlexTwo p:last-child{
+
+    font-size: 14px;
+  }
+  .blockSix p, .blockThree p, .blockTwo p, .blockFour p, .blockOne p, .blockFive p  {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  .says__img > img{
+    height: 28vh;
+  }
+  .text{
+    height: 30vh;
+    width: 40vw;
+  }
+  .text span{
+    font-size: 1em;
+  }
+  .text__description{
+    font-size: 0.9em;
+  }
+  .contactButton{
+    font-size: 0.8em;
+  }
+  .blockRight__container > p{
+    font-size: 1em;
+  }
+  .offer{
+    padding-top: 5vh;
+  }
+  .blockRight{
+    height: 55vh;
+  }
+  .blockLeft{
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 300px) and (max-height: 700px){
+ .flex__center .header__title{
+    font-size: 20px ;
+  }
+  .aboutFlex{
+    padding-top: 5vh;
+  }
+  .aboutFlexTwo > p{
+    font-size: 8px;
+  }
+
+}

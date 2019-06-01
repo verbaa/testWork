@@ -1,0 +1,120 @@
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .title{
+    padding-top: 5vh;
+  }
+  .aboutFlexOne__img{
+    display: none;
+  }
+  .aboutFlexTwo {
+    width: 100%;
+  }
+  .aboutFlexTwo > p{
+    font-size: 10px;
+
+  }
+  .aboutFlexTwo p:first-child{
+    line-height: 1.7em;
+    font-size: 2vh;
+  }
+  .aboutFlexTwo p:nth-child(2) {
+    font-size: 1.5vh;
+  }
+  .aboutFlexTwo p:nth-child(4) {
+    font-size: 2vh;
+  }
+  .aboutFlexTwo p:nth-child(3) {
+    font-size: 1.5vh;
+  }
+  .aboutFlexTwo p:last-child{
+
+    font-size: 1.5vh;
+  }
+  .flexImg > img{
+    width: 110px;
+    height: 110px;
+  }
+  .grid {
+    display: grid;
+
+    grid-auto-rows: minmax(10vh, auto);
+    grid-template-areas:
+            "one one one"
+            "two two two"
+            "three three three"
+            "four four four"
+            "five five five"
+            "six six six";
+    grid-gap: 2%;
+    height: 75vh;
+    padding-top: 3vh;
+    img{
+      position: absolute;
+      height: 200px;
+      opacity: 0.2;
+    }
+  };
+  .blockOne h6{
+    padding-top: 1vh;
+  }
+  .grid > .blockOne p, .grid > .blockTwo p, .grid > .blockThree p, .grid > .blockFour p, .grid > .blockFive p, .grid > .blockSix p  {
+    display: none;
+  }
+  .saysFlex{
+    flex-direction: column;
+  }
+  .says__img > img{
+    height: 30vh;
+  }
+  .text{
+    width: 100%;
+
+  }
+  .text__description{
+    width: 90%;
+    font-size: 2vh;
+  }
+  .buttonTwo{
+    display: none;
+  }
+  .logo_blockOne{
+    flex-wrap: wrap;
+
+  }
+  .logo_blockTwo{
+    flex-wrap: wrap;
+  }
+  .logo_blockOne > img, .logo_blockTwo > img {
+    width: 50px;
+    height: 30px;
+  }
+  .offer{
+    flex-direction: column;
+
+  }
+  .input-wrapper{
+    margin: 4% auto;
+  }
+  .blockLeft{
+    height: 37vh;
+    width: 100%;
+  }
+  .contactButton{
+    font-size: 0.5em;
+  }
+  .blockRight{
+    width: 100%;
+    height: 25vh;
+
+  }
+  .blockRight__container > p{
+    font-size: 1.5vh;
+  }
+  .contact__img{
+    display: none;
+  }
+  .blockLeft{
+    margin-bottom: 5vh;
+  }
+
+
+}
